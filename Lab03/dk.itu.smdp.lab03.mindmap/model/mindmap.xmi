@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mindmap:DocumentRoot
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mindmap="http://www.example.org/mindmap"
+    xsi:schemaLocation="http://www.example.org/mindmap mindmap.ecore">
+  <map title="Lab03_Task2">
+    <rootTopics
+        name="Class Modeling Meta-modeling">
+      <comments
+          subject="1. Class Modeling"/>
+      <comments
+          subject="2. Class Diagram Primer">
+        <items
+            body="object diagrams"/>
+        <items
+            body="classes"/>
+        <items
+            body="generalization"/>
+        <items
+            body="interfaces"/>
+        <items
+            body="enumerations"/>
+        <items
+            body="references"/>
+        <items
+            body="black diamonds"/>
+      </comments>
+      <comments
+          subject="3. Meta-modeling">
+        <items
+            body="xmind"/>
+        <items
+            body="xmind exercise"/>
+        <items
+            body="ecore"/>
+        <items
+            body="ecore exercise"/>
+      </comments>
+      <comments
+          subject="4. Meta-modeling hierarchy"/>
+    </rootTopics>
+  </map>
+</mindmap:DocumentRoot>
