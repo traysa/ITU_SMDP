@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/dk.itu.smdp.junit.conceptModel/src" modelPluginID="dk.itu.smdp.junit.conceptModel"
+    modelName="Domain" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>Domain.ecore</foreignModel>
+  <genPackages prefix="JUnitDomain" disposableProviderFactory="true" ecorePackage="Domain.ecore#/">
+    <genClasses ecoreClass="Domain.ecore#//Test">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Domain.ecore#//Test/uses"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Domain.ecore#//Test/contains"/>
+    </genClasses>
+    <genClasses ecoreClass="Domain.ecore#//ClassAnnotation"/>
+    <genClasses ecoreClass="Domain.ecore#//JUAssertion"/>
+    <genClasses ecoreClass="Domain.ecore#//Fixture">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Domain.ecore#//Fixture/isUsedBy"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domain.ecore#//Fixture/after"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domain.ecore#//Fixture/before"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domain.ecore#//Fixture/setUp"/>
+    </genClasses>
+    <genClasses ecoreClass="Domain.ecore#//Setup"/>
+    <genClasses ecoreClass="Domain.ecore#//Method">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domain.ecore#//Method/annotation"/>
+    </genClasses>
+    <genClasses ecoreClass="Domain.ecore#//JUAnnotation"/>
+    <genClasses ecoreClass="Domain.ecore#//MethodAnnotation"/>
+    <genClasses ecoreClass="Domain.ecore#//TestAnnotation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Domain.ecore#//TestAnnotation/expectedException"/>
+    </genClasses>
+    <genClasses ecoreClass="Domain.ecore#//Before"/>
+    <genClasses ecoreClass="Domain.ecore#//After"/>
+    <genClasses ecoreClass="Domain.ecore#//Suite">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domain.ecore#//Suite/tests"/>
+    </genClasses>
+    <genClasses ecoreClass="Domain.ecore#//JUClass">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domain.ecore#//JUClass/methods"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domain.ecore#//JUClass/fixture"/>
+    </genClasses>
+    <genClasses ecoreClass="Domain.ecore#//Runner">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Domain.ecore#//Runner/runs"/>
+    </genClasses>
+    <genClasses ecoreClass="Domain.ecore#//Root">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domain.ecore#//Root/runners"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domain.ecore#//Root/classes"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Domain.ecore#//Root/annotations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domain.ecore#//Root/setup"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="Domain.ecore#//NamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Domain.ecore#//NamedElement/name"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

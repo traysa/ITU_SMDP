@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/Users/theresa/Documents/Studium/Semester 2/Model Driven Development/Workspace/Lab05/.metadata/.plugins/org.eclipse.jdt.core
+3409060951.index
+2199274098.index

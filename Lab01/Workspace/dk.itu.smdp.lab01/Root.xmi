@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<family:Root
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:family="http://family/1.0"
+    xsi:schemaLocation="http://family/1.0 family.ecore">
+  <families
+      name="M&#xfc;ller">
+    <familymember
+        name="Bob"
+        age="42"
+        cpr="0104827456"
+        married="//@families.0/@familymember.1"
+        children="//@families.0/@familymember.2"/>
+    <familymember
+        name="Alice"
+        married="//@families.0/@familymember.0"
+        children="//@families.0/@familymember.2"/>
+    <familymember
+        name="Sam"
+        parents="//@families.0/@familymember.0 //@families.0/@familymember.1"/>
+  </families>
+  <universities
+      name="IT University">
+    <owns enrolledStudents="//@families.0/@familymember.2"
+        name="SDT"/>
+  </universities>
+</family:Root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/dk.itu.smdp.printers/src" modelPluginID="dk.itu.smdp.printers"
+    modelName="T5" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>T5.ecore</foreignModel>
+  <genPackages prefix="T5" disposableProviderFactory="true" ecorePackage="T5.ecore#/">
+    <genClasses ecoreClass="T5.ecore#//PrinterPool">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference T5.ecore#//PrinterPool/printer"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute T5.ecore#//PrinterPool/color"/>
+    </genClasses>
+    <genClasses ecoreClass="T5.ecore#//Printer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference T5.ecore#//Printer/pool"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute T5.ecore#//Printer/color"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

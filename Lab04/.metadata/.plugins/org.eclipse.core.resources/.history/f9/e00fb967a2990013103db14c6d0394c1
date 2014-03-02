@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<smdpitut2:PrinterPool
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:smdpitut2="http://www.itu.dk/people/wasowski/dk.itu.smdp.printers.T2"
+    xsi:schemaLocation="http://www.itu.dk/people/wasowski/dk.itu.smdp.printers.T2 ../model/T2.ecore">
+  <fax/>
+</smdpitut2:PrinterPool>

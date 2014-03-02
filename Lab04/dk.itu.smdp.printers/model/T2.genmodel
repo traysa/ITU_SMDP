@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/dk.itu.smdp.printers/src" modelPluginID="dk.itu.smdp.printers"
+    modelName="T2" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>T2.ecore</foreignModel>
+  <genPackages prefix="T2" disposableProviderFactory="true" ecorePackage="T2.ecore#/">
+    <genClasses ecoreClass="T2.ecore#//PrinterPool">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference T2.ecore#//PrinterPool/printer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference T2.ecore#//PrinterPool/fax"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference T2.ecore#//PrinterPool/copier"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference T2.ecore#//PrinterPool/scanner"/>
+    </genClasses>
+    <genClasses ecoreClass="T2.ecore#//Copier">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference T2.ecore#//Copier/pool"/>
+    </genClasses>
+    <genClasses ecoreClass="T2.ecore#//Scanner">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference T2.ecore#//Scanner/pool"/>
+    </genClasses>
+    <genClasses ecoreClass="T2.ecore#//Fax">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference T2.ecore#//Fax/pool"/>
+    </genClasses>
+    <genClasses ecoreClass="T2.ecore#//Printer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference T2.ecore#//Printer/pool"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

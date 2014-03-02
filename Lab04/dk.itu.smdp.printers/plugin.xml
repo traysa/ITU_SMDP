@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated T1 -->
+      <package
+            uri="http://www.itu.dk/people/wasowski/dk.itu.smdp.printers.T1"
+            class="T1.T1Package"
+            genModel="model/T1.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated T2 -->
+      <package
+            uri="http://www.itu.dk/people/wasowski/dk.itu.smdp.printers.T2"
+            class="T2.T2Package"
+            genModel="model/T2.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated T3 -->
+      <package
+            uri="http://www.itu.dk/people/wasowski/dk.itu.smdp.T3"
+            class="T3.T3Package"
+            genModel="model/T3.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated T4 -->
+      <package
+            uri="http://www.itu.dk/people/wasowski/dk.itu.smdp.printers.T4"
+            class="T4.T4Package"
+            genModel="model/T4.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated T5 -->
+      <package
+            uri="http://www.itu.dk/people/wasowski/dk.itu.smdp.printers.T5"
+            class="T5.T5Package"
+            genModel="model/T5.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated T6 -->
+      <package
+            uri="http://www.itu.dk/people/wasowski/dk.itu.smdp.printers.T6"
+            class="T6.T6Package"
+            genModel="model/T6.genmodel"/>
+   </extension>
+
+</plugin>

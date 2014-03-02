@@ -1,0 +1,37 @@
+/**
+ * (c) Andrzej Wąsowski 2014
+ * This file allows running the constraint checker on an instance file as
+ * a standalone Java application. Just run it as Java application in Eclipse.
+ */
+package validation;
+
+@SuppressWarnings("all")
+public class Main {
+  private final static java.lang.String instanceFileName = "test-files/t6-02.xmi";
+  
+  public static void main(final /* type is 'null' */ args) {
+    throw new Error("Unresolved compilation problems:"
+      + "\nThe method or field EcoreUtil is undefined for the type Main"
+      + "\nInvalid number of arguments. The method println() is not applicable for the arguments (java.lang.String)"
+      + "\nInvalid number of arguments. The method println() is not applicable for the arguments (java.lang.String)"
+      + "\nINSTANCE cannot be resolved"
+      + "\nextensionToFactoryMap cannot be resolved"
+      + "\nput cannot be resolved"
+      + "\neINSTANCE cannot be resolved"
+      + "\neClass cannot be resolved"
+      + "\neINSTANCE cannot be resolved"
+      + "\neClass cannot be resolved"
+      + "\neINSTANCE cannot be resolved"
+      + "\neClass cannot be resolved"
+      + "\neINSTANCE cannot be resolved"
+      + "\neClass cannot be resolved"
+      + "\neINSTANCE cannot be resolved"
+      + "\neClass cannot be resolved"
+      + "\neINSTANCE cannot be resolved"
+      + "\neClass cannot be resolved"
+      + "\ncreateURI cannot be resolved"
+      + "\ngetAllProperContents cannot be resolved"
+      + "\nforall cannot be resolved"
+      + "\nconstraint cannot be resolved");
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_R6p-IJ8sEeOs14XWLUr8NA" type="EcoreTools" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_R6p-IZ8sEeOs14XWLUr8NA"/>
+  <element xmi:type="ecore:EPackage" href="Assert.ecore#/"/>
+</notation:Diagram>
