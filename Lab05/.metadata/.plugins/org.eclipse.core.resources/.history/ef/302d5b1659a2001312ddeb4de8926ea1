@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="assert" nsURI="http://assert/1.0" nsPrefix="assert">
+  <eClassifiers xsi:type="ecore:EClass" name="Model">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute2"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute3"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute4"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute5"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute6"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute7"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute8"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute9"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute10"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute11"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute12"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute13"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute14"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute15"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute16"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute17"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute18"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute19"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute20"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute21"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute22"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute23"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="" upperBound="-1" eType="#//Assertion"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="" upperBound="-1" eType="#//Type"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Assertion">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameter" upperBound="-1"
+        eType="#//Parameter" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="" eType="#//Expression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Parameter" eSuperTypes="#//Type">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//Type"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Type">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ObjectType" eSuperTypes="#//Type"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SimpleType" eSuperTypes="#//Type"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Binary Expression" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameter" lowerBound="2"
+        upperBound="2" eType="#//Expression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Unary Expression" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameter" lowerBound="1"
+        eType="#//Expression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Function Call" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="" upperBound="-1" eType="#//Expression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Constant" eSuperTypes="#//Expression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Identifier" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameter" eType="#//Parameter"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Null" eSuperTypes="#//Constant"/>
+</ecore:EPackage>

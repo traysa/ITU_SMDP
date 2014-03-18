@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="1041" class="dk.itu.smdp.junit.asrt.ui.internal.MyDsl2Activator" localization="OSGI-INF/l10n/bundle" name="dk.itu.smdp.junit.asrt.MyDsl2.ui" project="dk.itu.smdp.junit.asrt.MyDsl2.ui" provider="My Company"/>
+	<bundle bundleID="1038" class="dk.itu.smdp.junit.asrt.ui.internal.MyDslActivator" localization="OSGI-INF/l10n/bundle" name="dk.itu.smdp.junit.asrt.MyDsl.ui" project="dk.itu.smdp.junit.asrt.MyDsl.ui" provider="My Company"/>
+	<bundle bundleID="1039" localization="OSGI-INF/l10n/bundle" name="dk.itu.smdp.junit.asrt.MyDsl2" project="dk.itu.smdp.junit.asrt.MyDsl2" provider="My Company"/>
+	<bundle bundleID="1035" localization="plugin" name="%pluginName" project="dk.itu.smdp.junit.asrt" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1036" localization="OSGI-INF/l10n/bundle" name="dk.itu.smdp.junit.asrt.MyDsl" project="dk.itu.smdp.junit.asrt.MyDsl" provider="My Company"/>
+	<bundle bundleID="1037" localization="OSGI-INF/l10n/bundle" name="dk.itu.smdp.junit.asrt.MyDsl.tests" project="dk.itu.smdp.junit.asrt.MyDsl.tests" provider="My Company"/>
+	<bundle bundleID="1040" localization="OSGI-INF/l10n/bundle" name="dk.itu.smdp.junit.asrt.MyDsl2.tests" project="dk.itu.smdp.junit.asrt.MyDsl2.tests" provider="My Company"/>
+</map>

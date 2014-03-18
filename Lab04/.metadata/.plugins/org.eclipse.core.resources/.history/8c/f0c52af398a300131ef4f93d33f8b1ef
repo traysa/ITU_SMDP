@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_tHbVEKOYEeO96ovpx-JplA" type="EcoreTools" name="Test2" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_uPGHwKOYEeO96ovpx-JplA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_uPIkAKOYEeO96ovpx-JplA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_uPKZMKOYEeO96ovpx-JplA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_uPKZMaOYEeO96ovpx-JplA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_uPKZMqOYEeO96ovpx-JplA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_uPKZM6OYEeO96ovpx-JplA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_uPLAQKOYEeO96ovpx-JplA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_uPLAQaOYEeO96ovpx-JplA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_uPLAQqOYEeO96ovpx-JplA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_uPLAQ6OYEeO96ovpx-JplA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_uPGHwaOYEeO96ovpx-JplA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Test2.ecore#//MyClass"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uPGHwqOYEeO96ovpx-JplA" x="266" y="271"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_tHbVEaOYEeO96ovpx-JplA"/>
+  <element xmi:type="ecore:EPackage" href="Test2.ecore#/"/>
+</notation:Diagram>

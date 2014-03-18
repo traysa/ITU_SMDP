@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-	<bundle bundleID="1019" localization="OSGI-INF/l10n/bundle" name="dk.itu.smdp.junit.assert" project="dk.itu.smdp.junit.assert"/>
-	<bundle bundleID="1018" localization="OSGI-INF/l10n/bundle" name="dk.itu.smdp.junit.assert.MetaModel" project="dk.itu.smdp.junit.assert.MetaModel"/>
-</map>

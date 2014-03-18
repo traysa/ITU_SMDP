@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<assert:Model
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:assert="http://assert/1.0"
+    xsi:schemaLocation="http://assert/1.0 Assert.ecore">
+  <assertions
+      name="assertEquals">
+    <parameter
+        name="Message"/>
+    <parameter
+        name="actual"
+        type="//@types.0"/>
+    <parameter
+        name="expected"
+        type="//@types.0"/>
+  </assertions>
+  <types xsi:type="assert:ObjectType"
+      name="Object"/>
+</assert:Model>

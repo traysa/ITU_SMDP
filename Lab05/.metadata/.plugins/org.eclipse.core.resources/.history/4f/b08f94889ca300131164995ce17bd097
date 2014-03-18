@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?>
+<assert:Model
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:assert="http://assert/1.0"
+    xsi:schemaLocation="http://assert/1.0 Assert.ecore">
+  <assertions
+      name="assertEquals">
+    <parameter
+        name="Message"
+        type="//@types.0"/>
+    <parameter
+        name="actual"
+        type="//@types.1"/>
+    <parameter
+        name="expected"
+        type="//@types.1"/>
+    <parameter
+        name="delta"
+        type="//@types.1"/>
+    < xsi:type="assert:BinaryExpression"
+        name="&lt;=">
+      <parameter
+          xsi:type="assert:FunctionCall"
+          name="Math.abs">
+        <parameter
+            xsi:type="assert:BinaryExpression"
+            name="-">
+          <parameter
+              xsi:type="assert:Identifier"
+              name="expected"
+              parameter="//@assertions.0/@parameter.2"/>
+          <parameter
+              xsi:type="assert:Identifier"
+              name="actual"
+              parameter="//@assertions.0/@parameter.1"/>
+        </parameter>
+      </parameter>
+      <parameter
+          xsi:type="assert:Identifier"
+          name="delta"
+          parameter="//@assertions.0/@parameter.3"/>
+    </>
+  </assertions>
+  <types xsi:type="assert:SimpleType"
+      name="String"/>
+  <types xsi:type="assert:SimpleType"
+      name="Double"/>
+</assert:Model>
